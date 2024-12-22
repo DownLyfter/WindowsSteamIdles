@@ -1,7 +1,10 @@
 @echo off
 cd C:\Users\Joe\Documents\idle_master_extended_v1.10.0
+color 2
 :i
 color 2
+type AsciiArt.txt
+echo ""
 echo Starting Idles...
 timeout /T 5
 @echo on
