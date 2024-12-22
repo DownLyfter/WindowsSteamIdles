@@ -1,4 +1,10 @@
-cd C:\Users\Matoi\Documents\idle_master_extended_v1.7
+@echo off
+cd C:\Users\Joe\Documents\idle_master_extended_v1.10.0
+:i
+color 2
+echo Starting Idles...
+timeout /T 5
+@echo on
 start steam-idle.exe 311210
 start steam-idle.exe 774171 
 start steam-idle.exe 282800
@@ -34,4 +40,8 @@ start steam-idle.exe 893520
 start steam-idle.exe 251570
 start steam-idle.exe 204360
 start steam-idle.exe 930210
-
+timeout /T 43200
+color 4
+echo Killing off Idles...
+taskkill/im steam-idle.exe
+goto i
